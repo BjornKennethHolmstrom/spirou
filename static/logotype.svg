@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 200 200"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="logotype.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview27"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.9910617"
+     inkscape:cx="44.96731"
+     inkscape:cy="112.66902"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg27" />
+  <!-- Background Circle with Gradient -->
+  <defs
+     id="defs22">
+    <linearGradient
+       id="bgGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#F2E8DD"
+         opacity="0.3"
+         id="stop1" />
+      <!-- Light Beige -->
+      <stop
+         offset="100%"
+         stop-color="#D6C2F5"
+         opacity="0.3"
+         id="stop2" />
+      <!-- Light Ultraviolet -->
+    </linearGradient>
+    <!-- Beige-Purple (innermost) -->
+    <linearGradient
+       id="gradient1"
+       x1="87.999984"
+       y1="88.00002"
+       x2="111.99998"
+       y2="88.00002"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.6213783,0,0,1.6213777,-62.137802,-62.1378)">
+      <stop
+         offset="0%"
+         stop-color="#E5D0BA"
+         id="stop3" />
+      <!-- Beige -->
+      <stop
+         offset="50%"
+         stop-color="#E5D0BA"
+         id="stop4" />
+      <!-- Beige -->
+      <stop
+         offset="50%"
+         stop-color="#B388EB"
+         id="stop5" />
+      <!-- Purple -->
+      <stop
+         offset="100%"
+         stop-color="#B388EB"
+         id="stop6" />
+      <!-- Purple -->
+    </linearGradient>
+    <!-- Red-Blue -->
+    <linearGradient
+       id="gradient2"
+       x1="77.999985"
+       y1="78.000024"
+       x2="121.99998"
+       y2="78.000024"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.6213783,0,0,1.6213777,-62.137802,-62.1378)">
+      <stop
+         offset="0%"
+         stop-color="#FF6F61"
+         id="stop7" />
+      <!-- Red -->
+      <stop
+         offset="50%"
+         stop-color="#FF6F61"
+         id="stop8" />
+      <!-- Red -->
+      <stop
+         offset="50%"
+         stop-color="#4267B2"
+         id="stop9" />
+      <!-- Blue -->
+      <stop
+         offset="100%"
+         stop-color="#4267B2"
+         id="stop10" />
+      <!-- Blue -->
+    </linearGradient>
+    <!-- Orange-Green -->
+    <linearGradient
+       id="gradient3"
+       x1="67.999986"
+       y1="68.000027"
+       x2="131.99997"
+       y2="68.000027"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.6213783,0,0,1.6213777,-62.137802,-62.1378)">
+      <stop
+         offset="0%"
+         stop-color="#FF9F1C"
+         id="stop11" />
+      <!-- Orange -->
+      <stop
+         offset="50%"
+         stop-color="#FF9F1C"
+         id="stop12" />
+      <!-- Orange -->
+      <stop
+         offset="50%"
+         stop-color="#4DAA57"
+         id="stop13" />
+      <!-- Green -->
+      <stop
+         offset="100%"
+         stop-color="#4DAA57"
+         id="stop14" />
+      <!-- Green -->
+    </linearGradient>
+    <!-- Yellow-Turquoise -->
+    <linearGradient
+       id="gradient4"
+       x1="57.999988"
+       y1="58.000029"
+       x2="141.99997"
+       y2="58.000029"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.6213783,0,0,1.6213777,-62.137802,-62.1378)">
+      <stop
+         offset="0%"
+         stop-color="#FFD700"
+         id="stop15" />
+      <!-- Yellow -->
+      <stop
+         offset="50%"
+         stop-color="#FFD700"
+         id="stop16" />
+      <!-- Yellow -->
+      <stop
+         offset="50%"
+         stop-color="#40E0D0"
+         id="stop17" />
+      <!-- Turquoise -->
+      <stop
+         offset="100%"
+         stop-color="#40E0D0"
+         id="stop18" />
+      <!-- Turquoise -->
+    </linearGradient>
+    <!-- Coral-Ultraviolet -->
+    <linearGradient
+       id="gradient5"
+       x1="47.99999"
+       y1="48.000032"
+       x2="151.99997"
+       y2="48.000032"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.6213783,0,0,1.6213777,-62.137802,-62.1378)">
+      <stop
+         offset="0%"
+         stop-color="#FF6F61"
+         id="stop19" />
+      <!-- Coral -->
+      <stop
+         offset="50%"
+         stop-color="#FF6F61"
+         id="stop20" />
+      <!-- Coral -->
+      <stop
+         offset="50%"
+         stop-color="#B388EB"
+         id="stop21" />
+      <!-- Ultraviolet -->
+      <stop
+         offset="100%"
+         stop-color="#B388EB"
+         id="stop22" />
+      <!-- Ultraviolet -->
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle
+     cx="100"
+     cy="100"
+     r="95"
+     fill="url(#bgGradient)"
+     opacity="0.2"
+     id="circle22" />
+  <!-- Spiral Path - Each segment with its own gradient -->
+  <!-- Beige-Purple (innermost) -->
+  <!-- Red-Blue -->
+  <!-- Orange-Green -->
+  <!-- Yellow-Turquoise -->
+  <!-- Coral-Ultraviolet -->
+  <!-- Central Dot -->
+  <!-- Beige -->
+  <path
+     d="m 99.999998,100 m -16.21378,0 a 16.213782,16.213782 0 1 0 32.427562,0 16.213782,16.213782 0 1 0 -32.427562,0"
+     fill="none"
+     stroke="url(#gradient1)"
+     stroke-width="6.48551"
+     stroke-linecap="round"
+     id="path22"
+     style="stroke:url(#gradient1)" />
+  <path
+     d="m 99.999998,100 m -32.42756,0 a 32.427562,32.427562 0 1 0 64.855122,0 32.427562,32.427562 0 1 0 -64.855122,0"
+     fill="none"
+     stroke="url(#gradient2)"
+     stroke-width="6.48551"
+     stroke-linecap="round"
+     id="path23"
+     style="stroke:url(#gradient2)" />
+  <path
+     d="m 99.999998,100 m -48.64134,0 a 48.641342,48.641342 0 1 0 97.282682,0 48.641342,48.641342 0 1 0 -97.282682,0"
+     fill="none"
+     stroke="url(#gradient3)"
+     stroke-width="6.48551"
+     stroke-linecap="round"
+     id="path24"
+     style="stroke:url(#gradient3)" />
+  <path
+     d="m 99.999998,100 m -64.85512,0 a 64.855122,64.855122 0 1 0 129.710242,0 64.855122,64.855122 0 1 0 -129.710242,0"
+     fill="none"
+     stroke="url(#gradient4)"
+     stroke-width="6.48551"
+     stroke-linecap="round"
+     id="path25"
+     style="stroke:url(#gradient4)" />
+  <path
+     d="m 99.999998,100 m -81.0689,0 a 81.068902,81.068902 0 1 0 162.137802,0 81.068902,81.068902 0 1 0 -162.137802,0"
+     fill="none"
+     stroke="url(#gradient5)"
+     stroke-width="6.48551"
+     stroke-linecap="round"
+     id="path26"
+     style="stroke:url(#gradient5)" />
+  <text
+     x="99.014229"
+     y="195.78818"
+     fill="#4b5563"
+     font-family="Arial, sans-serif"
+     font-weight="bold"
+     font-size="38.9131px"
+     text-anchor="middle"
+     id="text27"
+     style="stroke-width:1.62138">SPIROU</text>
+  <circle
+     cx="100"
+     cy="100"
+     r="8.1068897"
+     fill="#e5d0ba"
+     id="circle26"
+     style="stroke-width:1.62138" />
+  <circle
+     cx="100"
+     cy="100"
+     r="3.2427559"
+     fill="#b388eb"
+     id="circle27"
+     style="stroke-width:1.62138" />
+  <!-- Purple -->
+  <!-- Text -->
+</svg>

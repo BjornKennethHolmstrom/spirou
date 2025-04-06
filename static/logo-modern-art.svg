@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background Circle with Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2E8DD" opacity="0.3" /> <!-- Light Beige -->
+      <stop offset="25%" stop-color="#D6C2F5" opacity="0.3" /> <!-- Light Ultraviolet -->
+      <stop offset="50%" stop-color="#A0F0E8" opacity="0.3" /> <!-- Light Turquoise -->
+      <stop offset="75%" stop-color="#FFB3AC" opacity="0.3" /> <!-- Light Coral -->
+      <stop offset="100%" stop-color="#B388EB" opacity="0.3" /> <!-- Ultraviolet -->
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="117" fill="url(#bgGradient)" opacity="0.2" />
+  
+  <!-- Spiral Circles - Each pair representing Spiral Dynamics stages -->
+  <!-- Beige-Purple (innermost) -->
+  <circle cx="100" cy="100" r="15" fill="none" stroke="#E5D0BA" stroke-width="4" stroke-dasharray="3.14 3.14" />
+  <circle cx="100" cy="100" r="25" fill="none" stroke="#B388EB" stroke-width="4" stroke-dasharray="4.71 4.71" />
+  
+  <!-- Red-Blue -->
+  <circle cx="100" cy="100" r="35" fill="none" stroke="#FF6F61" stroke-width="4" stroke-dasharray="6.28 6.28" />
+  <circle cx="100" cy="100" r="45" fill="none" stroke="#4267B2" stroke-width="4" stroke-dasharray="7.85 7.85" />
+  
+  <!-- Orange-Green -->
+  <circle cx="100" cy="100" r="55" fill="none" stroke="#FF9F1C" stroke-width="4" stroke-dasharray="9.42 9.42" />
+  <circle cx="100" cy="100" r="65" fill="none" stroke="#4DAA57" stroke-width="4" stroke-dasharray="10.99 10.99" />
+  
+  <!-- Yellow-Turquoise -->
+  <circle cx="100" cy="100" r="75" fill="none" stroke="#FFD700" stroke-width="4" stroke-dasharray="12.56 12.56" />
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#40E0D0" stroke-width="4" stroke-dasharray="14.13 14.13" />
+
+  <!-- Coral-Ultraviolet (outermost) -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#FF6F61" stroke-width="4" stroke-dasharray="15.7 15.7" />
+  <circle cx="100" cy="100" r="105" fill="none" stroke="#B388EB" stroke-width="4" stroke-dasharray="17.27 17.27" opacity="0.7" />
+  
+  <!-- Central Dot -->
+  <circle cx="100" cy="100" r="7" fill="#E5D0BA" />
+  <circle cx="100" cy="100" r="3" fill="#7C3AED" />
+  
+  <!-- Text -->
+  <text x="100" y="170" fill="#4B5563" font-family="Arial, sans-serif" font-weight="bold" font-size="24" text-anchor="middle">SPIROU</text>
+</svg>
