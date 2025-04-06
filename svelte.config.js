@@ -1,17 +1,21 @@
 import adapter from '@sveltejs/adapter-static';
 
-export default {
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
   kit: {
     adapter: adapter({
-      // default options are fine for GitHub Pages
       pages: 'build',
       assets: 'build',
       fallback: 'index.html', // Enable SPA mode
       precompress: false
     }),
-    // Uncomment this for deployment to GitHub Pages
+    // Use different base paths for development vs production
     paths: {
-      base: '/spirou' // Adjust this to match your GitHub repository name
+      // Check if we're building for production (GitHub Pages)
+      // When running locally with npm run dev, this will be undefined
+      base: process.env.NODE_ENV === 'production' ? '/spirou' : ''
     }
   }
 };
+
+export default config;

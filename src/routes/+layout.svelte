@@ -5,6 +5,7 @@
   import { page } from '$app/stores';
   import { derived } from 'svelte/store';
   import { base } from '$app/paths';
+  import { getPath, isActiveRoute } from '$lib/utils';
 
   let sidebarOpen = false;
   let darkMode = false;
@@ -18,6 +19,7 @@
   function toggleDarkMode() {
     darkMode = !darkMode;
     document.documentElement.classList.toggle('dark', darkMode);
+    localStorage.setItem('darkMode', String(darkMode));
   }
 
   onMount(() => {
@@ -55,9 +57,9 @@
       <h2 class="text-xl font-bold px-4 mb-4">Spirou</h2>
       {#each navItems as item}
         <a
-          href={item.href}
+          href={getPath(item.href)}
           class="block px-4 py-2 rounded hover:bg-purple-300 dark:hover:bg-purple-700 transition-colors"
-          class:active={currentPath === item.href}
+          class:active={isActiveRoute(currentPath, item.href)}
         >
           {item.label}
         </a>
@@ -78,12 +80,10 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
-        <a href="/" class="flex items-center space-x-3 hover:opacity-90 transition-opacity">
-          <img src="/logo.svg" alt="Spirou Logo" class="h-8 w-8" />
+        <a href={getPath('/')} class="flex items-center space-x-3 hover:opacity-90 transition-opacity">
+          <img src={getPath('/logo.svg')} alt="Spirou Logo" class="h-8 w-8" />
           <h1 class="text-xl font-semibold text-white">Spirou</h1>
         </a>
-
-
       </div>
       <div class="flex items-center space-x-4">
         <button

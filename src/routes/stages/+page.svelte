@@ -3,6 +3,7 @@
   import { onMount } from 'svelte';
   import { page } from '$app/stores';
   import { derived } from 'svelte/store';
+  import { getPath } from '$lib/utils';
 
   const currentPath = derived(page, ($page) => $page.url.pathname);
 
@@ -104,10 +105,10 @@
 
   <div class="mt-12 text-center">
     <a
-      href="/modes"
+      href={getPath('/try')}
       class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-full text-lg shadow transition-colors"
     >
-      Explore How Spirou Interacts With Each Stage →
+      Interact with Spirou in Your Preferred Stage →
     </a>
   </div>
 
@@ -124,4 +125,3 @@
   </div>
 
 </div>
-

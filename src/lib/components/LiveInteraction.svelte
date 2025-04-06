@@ -1,6 +1,7 @@
 <!-- src/lib/components/LiveInteraction.svelte -->
 <script lang="ts">
   import { onMount } from 'svelte';
+  import { base } from '$app/paths';
 
   export let selectedStage: string = 'green';
   export let selectedMode: string = 'spiral-matching';
@@ -22,6 +23,19 @@
     { id: 'worldbuilder', label: '🌍 Worldbuilder Mode' },
     { id: 'beyond-spiral', label: '🚀 Beyond the Spiral' }
   ];
+
+  const stageColorClasses = {
+    beige: { bg: 'bg-amber-100', text: 'text-amber-800' },
+    purple: { bg: 'bg-purple-100', text: 'text-purple-800' },
+    red: { bg: 'bg-red-100', text: 'text-red-800' },
+    blue: { bg: 'bg-blue-100', text: 'text-blue-800' },
+    orange: { bg: 'bg-orange-100', text: 'text-orange-800' },
+    green: { bg: 'bg-green-100', text: 'text-green-800' },
+    yellow: { bg: 'bg-yellow-100', text: 'text-yellow-800' },
+    turquoise: { bg: 'bg-cyan-100', text: 'text-cyan-800' },
+    coral: { bg: 'bg-pink-100', text: 'text-pink-800' },
+    ultraviolet: { bg: 'bg-violet-100', text: 'text-violet-800' }
+  };
 
   async function handleSubmit() {
     if (!userMessage.trim()) return;
@@ -114,8 +128,8 @@
   {/if}
 
   {#if response}
-    <div class="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded shadow text-gray-900 dark:text-gray-100 whitespace-pre-wrap">
-      <h3 class="font-bold mb-2 text-purple-700 dark:text-purple-300">Spirou replies:</h3>
+    <div class="mt-6 p-4 {stageColorClasses[selectedStage]?.bg || 'bg-gray-100'} dark:bg-gray-700 rounded shadow {stageColorClasses[selectedStage]?.text || 'text-gray-900'} dark:text-gray-100 whitespace-pre-wrap">
+      <h3 class="font-bold mb-2 {stageColorClasses[selectedStage]?.text || 'text-purple-700'} dark:text-purple-300">Spirou replies:</h3>
       <p>{response}</p>
     </div>
   {/if}

@@ -1,12 +1,12 @@
 <!-- src/routes/+page.svelte -->
 <script lang="ts">
-  import { base } from '$app/paths';
+  import { getPath } from '$lib/utils';
 </script>
 
 <div class="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
   <section class="text-center py-24 px-6">
     <div class="flex justify-center mb-8">
-      <img src="/logo.svg" alt="Spirou Logo" class="h-32 w-32 md:h-48 md:w-48" />
+      <img src={getPath('/logo.svg')} alt="Spirou Logo" class="h-32 w-32 md:h-48 md:w-48" />
     </div>
 
     <h1 class="text-5xl md:text-6xl font-extrabold text-purple-700 mb-4">
@@ -16,7 +16,7 @@
       Your Spiral-Aligned Guide to Inner & Outer Evolution
     </p>
     <a
-      href="/stages"
+      href={getPath('/stages')}
       class="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-full text-lg shadow-lg transition-colors"
     >
       Begin the Journey
@@ -56,9 +56,8 @@
 
   <section class="py-20 px-6 text-center max-w-3xl mx-auto">
     <blockquote class="italic text-lg text-gray-600">
-      “The Spiral is not a ladder to climb, but a rhythm to remember.
-      To evolve is not to rise above, but to dance with all that came before.”
+      "The Spiral is not a ladder to climb, but a rhythm to remember.
+      To evolve is not to rise above, but to dance with all that came before."
     </blockquote>
   </section>
 </div>
-
